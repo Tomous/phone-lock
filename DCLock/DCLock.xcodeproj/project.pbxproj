@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B09FA19D1B86A6C60098328D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B09FA19C1B86A6C60098328D /* main.m */; };
+		B09FA1A01B86A6C60098328D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B09FA19F1B86A6C60098328D /* AppDelegate.m */; };
+		B09FA1A31B86A6C60098328D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B09FA1A21B86A6C60098328D /* ViewController.m */; };
+		B09FA1A61B86A6C60098328D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09FA1A41B86A6C60098328D /* Main.storyboard */; };
+		B09FA1A81B86A6C60098328D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B09FA1A71B86A6C60098328D /* Images.xcassets */; };
+		B09FA1AB1B86A6C60098328D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B09FA1A91B86A6C60098328D /* LaunchScreen.xib */; };
+		B09FA1B71B86A6C60098328D /* DCLockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B09FA1B61B86A6C60098328D /* DCLockTests.m */; };
+		B09FA1C51B86A7730098328D /* DCLockIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = B09FA1C41B86A7730098328D /* DCLockIndicator.m */; };
+		B09FA1C81B86A8100098328D /* DCLockPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = B09FA1C71B86A8100098328D /* DCLockPassword.m */; };
+		B09FA1CB1B86A8640098328D /* DCLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = B09FA1CA1B86A8640098328D /* DCLockView.m */; };
+		B09FA1CF1B86A9BD0098328D /* DCLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B09FA1CD1B86A9BD0098328D /* DCLockViewController.m */; };
+		B09FA1D01B86A9BD0098328D /* DCLockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B09FA1CE1B86A9BD0098328D /* DCLockViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B09FA1B11B86A6C60098328D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B09FA18F1B86A6C60098328D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B09FA1961B86A6C60098328D;
+			remoteInfo = DCLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B09FA1971B86A6C60098328D /* DCLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09FA19B1B86A6C60098328D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B09FA19C1B86A6C60098328D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B09FA19E1B86A6C60098328D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B09FA19F1B86A6C60098328D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B09FA1A11B86A6C60098328D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B09FA1A21B86A6C60098328D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B09FA1A51B86A6C60098328D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B09FA1A71B86A6C60098328D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B09FA1AA1B86A6C60098328D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B09FA1B01B86A6C60098328D /* DCLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09FA1B51B86A6C60098328D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B09FA1B61B86A6C60098328D /* DCLockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCLockTests.m; sourceTree = "<group>"; };
+		B09FA1C31B86A7730098328D /* DCLockIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCLockIndicator.h; sourceTree = "<group>"; };
+		B09FA1C41B86A7730098328D /* DCLockIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCLockIndicator.m; sourceTree = "<group>"; };
+		B09FA1C61B86A8100098328D /* DCLockPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCLockPassword.h; sourceTree = "<group>"; };
+		B09FA1C71B86A8100098328D /* DCLockPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCLockPassword.m; sourceTree = "<group>"; };
+		B09FA1C91B86A8640098328D /* DCLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCLockView.h; sourceTree = "<group>"; };
+		B09FA1CA1B86A8640098328D /* DCLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCLockView.m; sourceTree = "<group>"; };
+		B09FA1CC1B86A9BD0098328D /* DCLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCLockViewController.h; sourceTree = "<group>"; };
+		B09FA1CD1B86A9BD0098328D /* DCLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCLockViewController.m; sourceTree = "<group>"; };
+		B09FA1CE1B86A9BD0098328D /* DCLockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DCLockViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B09FA1941B86A6C60098328D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09FA1AD1B86A6C60098328D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B09FA18E1B86A6C60098328D = {
+			isa = PBXGroup;
+			children = (
+				B09FA1991B86A6C60098328D /* DCLock */,
+				B09FA1B31B86A6C60098328D /* DCLockTests */,
+				B09FA1981B86A6C60098328D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B09FA1981B86A6C60098328D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B09FA1971B86A6C60098328D /* DCLock.app */,
+				B09FA1B01B86A6C60098328D /* DCLockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B09FA1991B86A6C60098328D /* DCLock */ = {
+			isa = PBXGroup;
+			children = (
+				B09FA19E1B86A6C60098328D /* AppDelegate.h */,
+				B09FA19F1B86A6C60098328D /* AppDelegate.m */,
+				B09FA1A11B86A6C60098328D /* ViewController.h */,
+				B09FA1A21B86A6C60098328D /* ViewController.m */,
+				B09FA1A41B86A6C60098328D /* Main.storyboard */,
+				B09FA1A71B86A6C60098328D /* Images.xcassets */,
+				B09FA1A91B86A6C60098328D /* LaunchScreen.xib */,
+				B09FA19A1B86A6C60098328D /* Supporting Files */,
+				B09FA1C31B86A7730098328D /* DCLockIndicator.h */,
+				B09FA1C41B86A7730098328D /* DCLockIndicator.m */,
+				B09FA1C61B86A8100098328D /* DCLockPassword.h */,
+				B09FA1C71B86A8100098328D /* DCLockPassword.m */,
+				B09FA1C91B86A8640098328D /* DCLockView.h */,
+				B09FA1CA1B86A8640098328D /* DCLockView.m */,
+				B09FA1CC1B86A9BD0098328D /* DCLockViewController.h */,
+				B09FA1CD1B86A9BD0098328D /* DCLockViewController.m */,
+				B09FA1CE1B86A9BD0098328D /* DCLockViewController.xib */,
+			);
+			path = DCLock;
+			sourceTree = "<group>";
+		};
+		B09FA19A1B86A6C60098328D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B09FA19B1B86A6C60098328D /* Info.plist */,
+				B09FA19C1B86A6C60098328D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B09FA1B31B86A6C60098328D /* DCLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				B09FA1B61B86A6C60098328D /* DCLockTests.m */,
+				B09FA1B41B86A6C60098328D /* Supporting Files */,
+			);
+			path = DCLockTests;
+			sourceTree = "<group>";
+		};
+		B09FA1B41B86A6C60098328D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B09FA1B51B86A6C60098328D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B09FA1961B86A6C60098328D /* DCLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B09FA1BA1B86A6C60098328D /* Build configuration list for PBXNativeTarget "DCLock" */;
+			buildPhases = (
+				B09FA1931B86A6C60098328D /* Sources */,
+				B09FA1941B86A6C60098328D /* Frameworks */,
+				B09FA1951B86A6C60098328D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCLock;
+			productName = DCLock;
+			productReference = B09FA1971B86A6C60098328D /* DCLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B09FA1AF1B86A6C60098328D /* DCLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B09FA1BD1B86A6C60098328D /* Build configuration list for PBXNativeTarget "DCLockTests" */;
+			buildPhases = (
+				B09FA1AC1B86A6C60098328D /* Sources */,
+				B09FA1AD1B86A6C60098328D /* Frameworks */,
+				B09FA1AE1B86A6C60098328D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B09FA1B21B86A6C60098328D /* PBXTargetDependency */,
+			);
+			name = DCLockTests;
+			productName = DCLockTests;
+			productReference = B09FA1B01B86A6C60098328D /* DCLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B09FA18F1B86A6C60098328D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "尚承教育";
+				TargetAttributes = {
+					B09FA1961B86A6C60098328D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					B09FA1AF1B86A6C60098328D = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = B09FA1961B86A6C60098328D;
+					};
+				};
+			};
+			buildConfigurationList = B09FA1921B86A6C60098328D /* Build configuration list for PBXProject "DCLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B09FA18E1B86A6C60098328D;
+			productRefGroup = B09FA1981B86A6C60098328D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B09FA1961B86A6C60098328D /* DCLock */,
+				B09FA1AF1B86A6C60098328D /* DCLockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B09FA1951B86A6C60098328D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09FA1D01B86A9BD0098328D /* DCLockViewController.xib in Resources */,
+				B09FA1A61B86A6C60098328D /* Main.storyboard in Resources */,
+				B09FA1AB1B86A6C60098328D /* LaunchScreen.xib in Resources */,
+				B09FA1A81B86A6C60098328D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09FA1AE1B86A6C60098328D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B09FA1931B86A6C60098328D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09FA1A31B86A6C60098328D /* ViewController.m in Sources */,
+				B09FA1C81B86A8100098328D /* DCLockPassword.m in Sources */,
+				B09FA1C51B86A7730098328D /* DCLockIndicator.m in Sources */,
+				B09FA1A01B86A6C60098328D /* AppDelegate.m in Sources */,
+				B09FA1CF1B86A9BD0098328D /* DCLockViewController.m in Sources */,
+				B09FA1CB1B86A8640098328D /* DCLockView.m in Sources */,
+				B09FA19D1B86A6C60098328D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09FA1AC1B86A6C60098328D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09FA1B71B86A6C60098328D /* DCLockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B09FA1B21B86A6C60098328D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B09FA1961B86A6C60098328D /* DCLock */;
+			targetProxy = B09FA1B11B86A6C60098328D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B09FA1A41B86A6C60098328D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B09FA1A51B86A6C60098328D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B09FA1A91B86A6C60098328D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B09FA1AA1B86A6C60098328D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B09FA1B81B86A6C60098328D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B09FA1B91B86A6C60098328D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B09FA1BB1B86A6C60098328D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DCLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B09FA1BC1B86A6C60098328D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DCLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B09FA1BE1B86A6C60098328D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DCLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DCLock.app/DCLock";
+			};
+			name = Debug;
+		};
+		B09FA1BF1B86A6C60098328D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DCLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DCLock.app/DCLock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B09FA1921B86A6C60098328D /* Build configuration list for PBXProject "DCLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B09FA1B81B86A6C60098328D /* Debug */,
+				B09FA1B91B86A6C60098328D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B09FA1BA1B86A6C60098328D /* Build configuration list for PBXNativeTarget "DCLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B09FA1BB1B86A6C60098328D /* Debug */,
+				B09FA1BC1B86A6C60098328D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B09FA1BD1B86A6C60098328D /* Build configuration list for PBXNativeTarget "DCLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B09FA1BE1B86A6C60098328D /* Debug */,
+				B09FA1BF1B86A6C60098328D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B09FA18F1B86A6C60098328D /* Project object */;
+}
